@@ -13,7 +13,7 @@ img{
     display: block;
 }
 
-section,footer{
+section{
     width: 1200px;
 }
 
@@ -62,10 +62,8 @@ body{
 .top-banner .half-div-left{
     float: left;
     width: 40%;
-    
-
-
 }
+
 .top-banner .half-div-left h1{
     font-size: 50px;
 }
@@ -121,6 +119,8 @@ body{
     color: tomato;
 }
 
+/* projects part */
+
 .projects{
     margin-top: 40px;
     padding: 40px 60px;
@@ -144,7 +144,7 @@ body{
     border-radius: 10px;
     box-shadow: 10px 10px 15px rgb(179, 172, 172,.4);
 }
-.one-third-div img{}
+
 .one-third-div  h3{
     font-size: 20px;
     margin-top: 15px;
@@ -153,6 +153,9 @@ body{
     font-size: 16px;
     margin-top: 10px;
     line-height: 25px;
+    color: rgb(179, 172, 172);
+
+
 }
 
 /* Work Inquiry part */
@@ -184,7 +187,7 @@ body{
 
 }
 
-/* SKILL PART */
+/* skill part */
 
 .skill-div{
     background-color:#f8f9fc  ;
