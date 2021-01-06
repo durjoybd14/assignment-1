@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+section{
+    width: 1200px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.default-button{
+        font-size: 16px;
+        background-image: linear-gradient(45deg,lightsalmon,tomato);
+        padding: 15px 25px;
+        margin-top: 25px;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+}
+
+
+/* menu part */
+
+.menu{
+    margin-top: 40px;
+}
+.menu ul{
+    text-align: right;
+
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    font-size: 17px;
+    text-decoration: none;
+    padding: 20px 15px;
+    color: #000;
+}
+
+/* top banner part */
+
+.top-banner{
+    margin-top: 50px;
+    padding: 40px 6%;
+}
+
+.top-banner .half-div-left{
+    float: left;
+    width: 40%;
+    
+
+
+}
+.top-banner .half-div-left h1{
+    font-size: 50px;
+}
+.top-banner .half-div-left p{
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(179, 172, 172);
+
+
+}
+.top-banner .half-div-left .color-text{
+    color: tomato;
+}
+
+
+.top-banner .half-div-right{
+    float: right;
+    width: 60%;
+    margin-top: -40px;
+}
+
+/* middle banner part */
+
+.middle-banner{
+    margin-top: 30px;
+    margin-left: -60px;
+    padding: 40px 0px;
+}
+
+.middle-banner .half-div-left{
+    float: left;
+    width: 60%;
+}
+
+.middle-banner .half-div-right{
+    float: left;
+    width: 40%;
+    margin-top: 60px;
+
+}
+.middle-banner .half-div-right h1{
+    font-size: 50px;
+}
+.middle-banner .half-div-right p{
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(179, 172, 172);
+
+
+
+}
+.middle-banner .half-div-right .color-text{
+    color: tomato;
+}
+
+.projects{
+    margin-top: 40px;
+    padding: 40px 60px;
+    background-color: #f8f9fc;
+}
+.projects h2{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.projects h2 span{
+    color: tomato;
+}
+
+.one-third-div{
+    float: left;
+    width: 29%;
+    margin-left: 20px;
+    padding: 15px 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgb(179, 172, 172,.4);
+}
+.one-third-div img{}
+.one-third-div  h3{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.one-third-div p{
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+/* Work Inquiry part */
+
+.work-inquiry{
+   
+    background-position: center center;
+    padding: 20px;background-image: url("images/Group1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:20px 20px;
+    height: 80px;
+    width: 60%;
+    margin: 70px auto;
+    border-radius: 15px;
+}
+
+.work-inquiry .half-div-left{
+    float: left;
+    width: 60%;
+    margin: 15px auto;
+    color: white;
+    font-size: 25px;
+}
+.work-inquiry .half-div-right{
+    float: right;
+    width: 20%;
+    margin-top: -10px;
+
+}
+
+/* SKILL PART */
+
+.skill-div{
+    background-color:#f8f9fc  ;
+    padding: 40px 70px;
+}
+
+.skill-div .html{
+    margin-top: 10px;
+    background: #000;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+    width: 80%;
+    
+}
+.skill-div .css{
+    margin-top: 10px;
+    background: #000;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+    width: 70%;
+}
+
+.skill-div .css span{
+    display: block;
+    margin-left: 120px;
+}
+
+/* footer top part */
+
+.footer-top{
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.footer-top h2{
+    margin-top: 10px;
+
+}
+.footer-top h2 a{
+    font-size: 25px;
+    text-decoration: none;
+}
+.footer-top p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.footer-top ul{
+    margin-top: 30px;
+}
+.footer-top ul li{
+    display: inline-block;
+
+}
+.footer-top ul li a{
+    margin-left: 10px;
+    display: inline-block;
+    width: 40px;
+
+}
+
+/* footer part */
+
+footer{
+    text-align: center;
+    background: rgb(19, 18, 18);
+    color: white;
+    padding: 20px;
+}
